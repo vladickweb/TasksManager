@@ -1,14 +1,6 @@
-import React, { Component } from "react";
 import {render} from "react-dom";
-
-class App extends Component {
-    render() {
-        return (
-            <h1>Hello World</h1>
-        )
-    }
-}
-
+import React from "react"
+import App from "./App";
 // ReactDOM.render(
 //     <h1>Hello World</h1>,
 // document.getElementById("app")
@@ -17,4 +9,3 @@ class App extends Component {
 render(
 <App/>, 
 document.getElementById("app"));
-
